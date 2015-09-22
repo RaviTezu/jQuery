@@ -1,0 +1,20 @@
+- It is good to load the minified version og Jquery from CDNs. Do a Google search for JQuery CDN and you will find Google, Microsoft and Someother companies do this. So, you can load the jQuery library(which is around 32KB) from CDNs.
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+- Dollar sign($) is gonna act as a shortcut to the jQuery factory, which is a very fancy way of saying that the dollar sign is going to get you the root jQuery object. 
+
+- The most common thing that you're goning be doing is grabing the particular object or objects that you want using the $ - $(content). also, it can be used to Register a ready event handler.
+
+- $.method() - Making calls and it will give you access to the gobal utilities. 
+
+- One of the most important things to keep in mind whenever you're executing code inside of jQuery, is that you need to make sure that the page is ready. Now, javascript gives you the ability to do that by utulizing the load event. 
+
+- In jQuery, you do that by utilizing the ready event, and there's actually two ways to setup a ready event handler:
+
+2 ways:
+
+1) $(document).read(fucntion(){ //code here});
+2) $(function(){//code here});
+
+Waits for the page to load and then starts executing the code/function inside it.
